@@ -1,2 +1,2 @@
 # work-portfolio
-creating a website to host all the applications i've developped so far
+i will be creating a website to host the applications i've developped so far.
