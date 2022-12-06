@@ -3,21 +3,37 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color: aqua;
+  
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+
+.container {
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+  margin: 70px;
+  padding: 70px;
 }
 
-p {
-  margin: 0;
+.contact{
+  display: grid;
+  grid-auto-flow: column;
+  font-size: larger;
+
 }
+
+img { 
+  width: 49%;  
+  height: auto;
+  
+}
+
+
+
+
+
+
