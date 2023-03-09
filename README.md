@@ -3,24 +3,12 @@ My Portfolio
 
 Welcome to my portfolio! This is a showcase of my work and information about me.                                                   
 
-About Me
+About Me:                                                  
+
 My name is saber sebti, and I am a junior developer.
 
-saber sebti 
-
-My Work
-Here are some of my applications. Click on an image to go to the deployed application.
-
-First Application
 
 
-Second Application
-
-
-Third Application
-
-
-Fourth Application
 
 
 
