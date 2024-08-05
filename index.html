@@ -5,112 +5,115 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>work-portfolio</title>
+  <title>Saber Sebti - Work Portfolio</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-
-  <!-- main logo / nav -->
+  <!-- Main Logo / Nav -->
   <header>
     <h1>Saber Sebti</h1>
     <nav>
-        <a href="#about">About Me</a>
-        <a href="#work">Work</a>
-        <a href="#contact">Contact</a>
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <!-- hero banner -->
+  <!-- Hero Banner -->
   <section class="hero-banner">
-    <div>
-      <h2>WELCOME TO MY PORTFOLIO!</h2>
+    <div class="hero-content">
+      <h2>Welcome to My Portfolio!</h2>
     </div>
   </section>
 
   <main class="container">
-    <!-- about me -->
-   <!-- about me -->
-<section class="page-section" id="about">
-  <h2>About Me</h2>
-  <section>
-    <p>I am a passionate web developer with a knack for creating intuitive and engaging applications. Having successfully completed my frontend development bootcamp, I've built a solid foundation in HTML, CSS, and JavaScript. Not stopping there, I've also graduated from a specialized bootcamp in cloud security, expanding my skill set to encompass modern security practices. I'm eager to apply my diverse expertise to real-world projects, continuously learning and tackling new challenges. With a strong drive and a quick learning ability, I'm excited to embark on a rewarding journey in the tech industry and contribute to innovative solutions.</p>
-  </section>
-</section>
+    <!-- About Me -->
+    <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <p>I am a passionate web developer with a knack for creating intuitive and engaging applications. Having successfully completed my frontend development bootcamp, I've built a solid foundation in HTML, CSS, and JavaScript. Not stopping there, I've also graduated from a specialized bootcamp in cloud security, expanding my skill set to encompass modern security practices. I'm eager to apply my diverse expertise to real-world projects, continuously learning and tackling new challenges. With a strong drive and a quick learning ability, I'm excited to embark on a rewarding journey in the tech industry and contribute to innovative solutions.</p>
+    </section>
 
-
-    <!-- portfolio container -->
+    <!-- Portfolio -->
     <section class="page-section" id="work">
       <h2>Work</h2>
-
-      <section class="portfolio-grid">
+      <div class="portfolio-grid">
+        <!-- Portfolio Item 1 -->
         <div class="portfolio-item">
-          <img class="img-effect" src="./images/Canteen Management system.jpg" alt="Canteen Management System">
+          <a href="https://sabersebti.github.io/VoucherWatch/" target="_blank">
+            <img class="img-effect" src="./images/Canteen Management system.jpg" alt="Canteen Management System">
+          </a>
           <div class="portfolio-item-info">
             <h3>Canteen Management System</h3>
             <p>Transform how you manage canteen operations with this intuitive platform. Effortlessly track, generate, and redeem vouchers, streamlining every transaction and ensuring a smooth user experience.</p>
           </div>
         </div>
 
+        <!-- Portfolio Item 2 -->
         <div class="portfolio-item">
-          <img class="img-effect" src="./images/CloudCast project.jpg" alt="CloudCast Weather Forecast">
+          <a href="https://sabersebti.github.io/CloudCast/" target="_blank">
+            <img class="img-effect" src="./images/CloudCast project.jpg" alt="CloudCast Weather Forecast">
+          </a>
           <div class="portfolio-item-info">
             <h3>CloudCast</h3>
             <p>Experience the future of weather forecasting with CloudCast. Featuring modern styling and a sleek interface, this app provides accurate weather updates to keep you informed and prepared.</p>
           </div>
         </div>
 
+        <!-- Portfolio Item 3 -->
         <div class="portfolio-item">
-          <img class="img-effect" src="./images/Workday scheduler .jpg" alt="Workday Scheduler">
+          <a href="https://sabersebti.github.io/Never-miss-an-event/" target="_blank">
+            <img class="img-effect" src="./images/Workday scheduler .jpg" alt="Workday Scheduler">
+          </a>
           <div class="portfolio-item-info">
             <h3>Workday Scheduler</h3>
             <p>Organize your day with ease using Workday Scheduler. This powerful tool helps you manage and prioritize daily tasks, ensuring you stay on top of your schedule and productivity.</p>
           </div>
         </div>
 
+        <!-- Portfolio Item 4 -->
         <div class="portfolio-item">
-          <img class="img-effect" src="./images/Cafeteria project.jpg" alt="Cafeteria Platform">
+          <a href="https://sabersebti.github.io/my-work-portfolio/" target="_blank">
+            <img class="img-effect" src="./images/Cafeteria project.jpg" alt="Cafeteria Platform">
+          </a>
           <div class="portfolio-item-info">
             <h3>Cafeteria Platform</h3>
             <p>Indulge in the ultimate dining experience with this comprehensive cafeteria platform. From ordering coffee to selecting cakes and drinks, this app offers a seamless way to satisfy every craving.</p>
           </div>
         </div>
-      </section>
+      </div>
     </section>
 
-    <!-- contact -->
+    <!-- Contact -->
     <section class="page-section" id="contact">
       <h2>Contact Me</h2>
-      <section>
-        <p>You can reach me using any of the following methods or just send a message in the form below:</p>
-        <ul>
-          <li>Phone: +44 7454 387277</li>
-          <li>Email: sebti.saber1@email.com</li>
-          <li>Github: <a href="https://github.com/username">sabersebti</a></li>
-          <li>Twitter: <a href="https://twitter.com/username">@sebsab81</a></li>
-        </ul>
-      </section>
+      <p>You can reach me using any of the following methods or just send a message in the form below:</p>
+      <ul>
+        <li>Phone: +44 7454 387277</li>
+        <li>Email: <a href="mailto:sebti.saber1@email.com">sebti.saber1@email.com</a></li>
+        <li>Github: <a href="https://github.com/username" target="_blank">sabersebti</a></li>
+        <li>Twitter: <a href="https://twitter.com/username" target="_blank">@sebsab81</a></li>
+      </ul>
 
-      <section class="contact-section">
-        <div class="container">
-          <h2>Contact Me</h2>
-          <form class="contact-form">
-            <label for="name">Name</label>
-            <input type="text" id="name" placeholder="Enter your name" required>
+      <div class="contact-section">
+        <h3>Send Me a Message</h3>
+        <form class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter your name" required>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Enter your email" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email" required>
 
-            <label for="message">Message</label>
-            <textarea id="message" rows="5" placeholder="Enter your message"></textarea>
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Enter your message" required></textarea>
 
-            <input type="submit" value="Send Message">
-          </form>
-        </div>
-      </section>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
     <p>Copyright &copy; 2023 Saber Sebti</p>
   </footer>
