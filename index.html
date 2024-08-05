@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>work-portfolio</title>
+  <title>Saber Sebti - Portfolio</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -15,9 +15,9 @@
   <header>
     <h1>Saber Sebti</h1>
     <nav>
-        <a href="#about">About Me</a>
-        <a href="#work">Work</a>
-        <a href="#contact">Contact</a>
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
@@ -32,102 +32,78 @@
     <!-- about me -->
     <section class="page-section" id="about">
       <h2>About Me</h2>
-      <section>
-        <p>I am an enthusiastic beginner web developer with a passion for creating intuitive and user-friendly applications. I am working towards my boot-camp certificate as a frontend developer and l am eager to apply my skills and knowledge to real-world projects. My current skill set includes Html, CSS, and JavaScript. I am actively seeking opportunities to expand them, learn new technologies and take on challenging projects that will help me grow as a developer. I am a quick learner and always ready to take on new challenges, I am excited to begin my journey in the tech industry.</p> 
-      </section>
-
+      <p>I am an enthusiastic beginner web developer with a passion for creating intuitive and user-friendly applications. I am working towards my boot-camp certificate as a frontend developer and am eager to apply my skills and knowledge to real-world projects. My current skill set includes HTML, CSS, and JavaScript. I am actively seeking opportunities to expand them, learn new technologies, and take on challenging projects that will help me grow as a developer. I am a quick learner and always ready to take on new challenges. I am excited to begin my journey in the tech industry.</p>
     </section>
 
     <!-- portfolio container -->
     <section class="page-section" id="work">
-
-
       <h2>Work</h2>
-
-
-      <section class="portfolio-item">
-        <img class="img-effect" src="images\02-portfolio-1.jpg" alt="first application">
-        <div class="portfolio-item-info">
-          <h3>Application 1</h3>
-          <p>This is a brief description of the 1st application in my portfolio.</p>
-        </div>
-      </section>
-
-
-      <section class="portfolio-item">
-        <img class="img-effect" src="./images/02-portfolio-2.jpg" alt="second application">
-        <div class="portfolio-item-info">
-          <h3>Application 2</h3>
-          <p>This is a brief description of the 2nd application in my portfolio.</p>
-        </div>
-      </section>
-
-
-      <section class="portfolio-item">
-          <img class="img-effect" src="./images/02-portfolio-3.jpg" alt="third application">
+      
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="./images/Canteen Management system.jpg" alt="Canteen Management System">
           <div class="portfolio-item-info">
-          <h3>Application 3</h3>
-          <p>This is a brief description of the 3rd application in my portfolio.</p>
+            <h3>Canteen Management System</h3>
+            <p>A comprehensive solution for managing canteen operations, including inventory, orders, and user management.</p>
+          </div>
         </div>
-      </section>
 
-
-      <section class="portfolio-item">
-        <img class="img-effect" src="./images/02-portfolio-4.jpg" alt="fourth application">
-        <div class="portfolio-item-info">
-          <h3>Application 4</h3>
-        <p>This is a brief description of the 4th application in my portfolio.</p>
+        <div class="portfolio-item">
+          <img src="./images/Cafeteria project.jpg" alt="Cafeteria Project">
+          <div class="portfolio-item-info">
+            <h3>Cafeteria Project</h3>
+            <p>An intuitive platform designed to streamline cafeteria operations and improve user experience.</p>
+          </div>
         </div>
-        </section>
 
+        <div class="portfolio-item">
+          <img src="./images/Workday scheduler .jpg" alt="Workday Scheduler">
+          <div class="portfolio-item-info">
+            <h3>Workday Scheduler</h3>
+            <p>A powerful tool for managing work schedules, tasks, and deadlines with ease and efficiency.</p>
+          </div>
+        </div>
 
-        </section>
-        
-<!-- contact -->
+        <div class="portfolio-item">
+          <img src="./images/CloudCast project.jpg" alt="CloudCast Project">
+          <div class="portfolio-item-info">
+            <h3>CloudCast Project</h3>
+            <p>A cloud-based application for broadcasting and managing media content, featuring robust streaming capabilities.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section class="page-section" id="contact"></section>
-<h2>Contact Me</h2>
-<section>
-  <p>You can reach me using any of the following methods or just send a message in the below form:</p>
-  <ul>
-    <li>Phone: +44 7454 387277</li>
-    <li>Email: sebti.saber1@email.com</li>
-    <li>Github: <a href="https://github.com/username">sabersebti</a></li>
-    <li>Twitter: <a href="https://twitter.com/username">@sebsab81</a></li>
-  </ul>
-</section>
-</section>
+    <!-- contact -->
+    <section class="page-section" id="contact">
+      <h2>Contact Me</h2>
+      <p>You can reach me using any of the following methods or just send a message in the form below:</p>
+      <ul>
+        <li>Phone: +44 7454 387277</li>
+        <li>Email: <a href="mailto:sebti.saber1@email.com">sebti.saber1@email.com</a></li>
+        <li>Github: <a href="https://github.com/username">sabersebti</a></li>
+        <li>Twitter: <a href="https://twitter.com/username">@sebsab81</a></li>
+      </ul>
+      <div class="contact-section">
+        <h2>Send a Message</h2>
+        <form class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter your name" required>
 
-<section class="contact-section">
-  <div class="container">
- 
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email" required>
 
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Enter your message" required></textarea>
 
-    <h2>contact me</h2>
-    <form class="contact-form">
-      <label for="name">Name</label>
-      <input type="text" id="name" placeholder="Enter your name" required>
+          <input type="submit" value="Send Message">
+        </form>
+      </div>
+    </section>
+  </main>
 
-      <label for="email">Email</label>
-      <input type="email" id="email" placeholder="Enter your email" required>
-
-      <label for="message">Message</label>
-      <textarea id="message" rows="5" placeholder="Enter your message"></textarea>
-
-      <input type="submit" value="Send Message">
-    </form>
-  </div>
-</section>
-
-</main>
-<footer>
-  <p>Copyright &copy; 2023 Saber Sebti</p>
-</footer>
+  <footer>
+    <p>&copy; 2023 Saber Sebti</p>
+  </footer>
 </body>
-</html>        
-
-
-
-
-
-  
+</html>
