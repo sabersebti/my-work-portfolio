@@ -1,28 +1,17 @@
-My Portfolio                                                             
 
 
 Welcome to my portfolio! This is a showcase of my work and information about me.                                                   
 
-About Me:                                                  
-
-My name is saber sebti, and I am a junior developer.
+About Me:![image](https://github.com/user-attachments/assets/0eca9db4-9a24-48dc-80df-8cce2ae8a7cc)
 
 
+Work: ![image](https://github.com/user-attachments/assets/cd5c473f-13b9-4383-b101-a4b74891e758)
 
 
-
-
-
-When viewing the section about my work, you can see titled images of my applications.
-
-Contact Me:
-
-If you would like to get in touch with me, please feel free to reach out. 
+Contact me: ![image](https://github.com/user-attachments/assets/f15fd295-6661-465c-9abe-854bb6debd45)
 
 
 
 
-![image](https://user-images.githubusercontent.com/76743603/224087234-67333472-de51-44e5-989b-899a4a8b4075.png)
-![image](https://user-images.githubusercontent.com/76743603/224087446-c054b16a-eca1-418e-ac58-6cdee2ddaa79.png)
 
-here's the link to the this project, go check it out: https://sabersebti.github.io/my-work-portfolio
+
